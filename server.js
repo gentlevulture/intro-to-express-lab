@@ -22,10 +22,6 @@ app.set('view engine', 'ejs')
 // Mount routes
 
 app.get('/', function(req, res) {
-  res.send('<h1>Hello, Reado...</h1>')
-})
-
-app.get('/', function(req, res) {
   res.redirect('/home')
 })
 
